@@ -186,7 +186,7 @@ strong {
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 500px) {
     .container {
         /* border: 2px solid black; */
         display: grid;
@@ -202,7 +202,38 @@ strong {
 
     body {
         display: inline-block;
+        padding: auto;
         zoom: 45%;
-        
+
+    }
+
+    html {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:1100px) {
+    .container {
+        /* border: 2px solid black; */
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding-top: 90px;
+        gap: 30px;
+        margin: 0px 115px;
+        margin-top: 35px;
+
+    }
+
+    body {
+        display: iblock;
+        padding: auto;
+        zoom: 45%;
+
+    }
+
+    html {
+        text-align: center;
     }
 }
